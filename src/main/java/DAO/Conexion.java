@@ -17,6 +17,8 @@ public class Conexion {
     private static String usuario="root";
     private static String bd="bd2";
     private static String url="jdbc:mysql://localhost/"+bd;
+    
+    
 
 
 public static Connection getConnection(){
